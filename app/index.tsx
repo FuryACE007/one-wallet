@@ -1,6 +1,5 @@
 import { Text, View } from "react-native";
-import { colors } from './theme/colors';
-
+import { colors } from "@/components/theme/colors";
 export default function Index() {
   return (
     <View

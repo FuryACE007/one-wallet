@@ -1,7 +1,9 @@
+import "../components/global.css";
 import { Stack } from "expo-router";
-import { LinearGradient } from 'expo-linear-gradient';
-import { View } from 'react-native';
-import { colors } from './theme/colors';
+import { LinearGradient } from "expo-linear-gradient";
+import { View } from "react-native";
+import { colors } from "@/components/theme/colors";
+import "../components/global.css";
 
 export default function RootLayout() {
   return (
@@ -11,7 +13,7 @@ export default function RootLayout() {
         start={{ x: 0, y: 0 }}
         end={{ x: 1, y: 1 }}
         style={{
-          position: 'absolute',
+          position: "absolute",
           left: 0,
           right: 0,
           top: 0,
@@ -21,12 +23,12 @@ export default function RootLayout() {
       <Stack
         screenOptions={{
           headerStyle: {
-            backgroundColor: 'transparent',
+            backgroundColor: "transparent",
           },
           headerTransparent: true,
           headerTintColor: colors.text.primary,
           contentStyle: {
-            backgroundColor: 'transparent',
+            backgroundColor: "transparent",
           },
         }}
       />
