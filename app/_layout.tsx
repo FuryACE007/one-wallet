@@ -1,4 +1,5 @@
 import "../components/global.css";
+import "react-native-url-polyfill/auto";
 import { Stack } from "expo-router";
 import { LinearGradient } from "expo-linear-gradient";
 import { View } from "react-native";
